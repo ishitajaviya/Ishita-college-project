@@ -1,0 +1,19 @@
+what is javascipt output method ?
+
+Ans:-
+
+
+JavaScript Output defines the ways to display the output of a given code.
+
+The output can be displayed by using different approaches which are listed below:
+
+Table of Content :-
+
+Using innerHTML
+Using document.write()
+Using window.alert():
+Using console.log()
+Using window.prompt()
+Using appendChild()
+
+

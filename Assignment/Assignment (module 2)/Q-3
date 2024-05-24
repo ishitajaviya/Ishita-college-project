@@ -1,0 +1,34 @@
+How to used javascipt output method ?
+
+Ans:-
+
+Using innerHTML
+Using document.write()
+Using window.alert():
+Using console.log()
+Using window.prompt()
+Using appendChild()
+
+
+(1.) console.log():
+Used for logging information to the browser console, which is helpful for debugging.
+console.log("Hello, World!");
+
+(2.)Alert Box:
+Displays a pop-up alert box with the specified message.
+alert("Hello, World!");
+
+(3.)document.write():
+Writes HTML expressions or text to the document.
+document.write("Hello, World!");
+document.write() is not commonly used due to potential issues with document structure and performance.
+
+(4.)innerHTML:
+Manipulates the HTML content of an element.
+document.getElementById("outputElement").innerHTML = "Hello, World!";
+In this example, you would need an HTML element with the id "outputElement" for the content to be displayed.
+
+(5.)Writing to HTML Element using DOM:
+Another way to manipulate the content of an HTML element.
+html :-        <div id="outputElement"></div>
+javascript :-  document.getElementById("outputElement").textContent = "Hello, World!";

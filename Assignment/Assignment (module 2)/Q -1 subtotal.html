@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtotal and Grandtotal Calculator</title>
+</head>
+<body>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="itemList">
+        <!-- Rows will be dynamically added here -->
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Grand Total</td>
+            <td id="grandTotal">0.00</td>
+            <td></td>
+        </tr>
+    </tfoot>
+</table>
+
+<script>
+    let items = [];
+
+    function addItem() {
+        const itemName = prompt("Enter item name:");
+        const itemPrice = parseFloat(prompt("Enter item price:"));
+        const itemQuantity = parseInt(prompt("Enter item quantity:"));
+
+        const subtotal = itemPrice * itemQuantity;
+
+        items.push({
+            name: itemName,
+            price: itemPrice,
+            quantity: itemQuantity,
+            subtotal: subtotal
+        });
+
+        updateTable();
+    }
+
+    function removeItem(index) {
+        items.splice(index, 1);
+        updateTable();
+    }
+
+    function updateTable() {
+        const itemList = document.getElementById("itemList");
+        itemList.innerHTML = "";
+
+        let grandTotal = 0;
+
+        items.forEach((item, index) => {
+            grandTotal += item.subtotal;
+
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${item.name}</td>
+                <td>${item.price.toFixed(2)}</td>
+                <td>${item.quantity}</td>
+                <td>${item.subtotal.toFixed(2)}</td>
+                <td><button onclick="removeItem(${index})">Remove</button></td>
+            `;
+
+            itemList.appendChild(row);
+        });
+
+        document.getElementById("grandTotal").textContent = grandTotal.toFixed(2);
+    }
+</script>
+
+<button onclick="addItem()">Add Item</button>
+
+</body>
+</html>
