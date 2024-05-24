@@ -1,0 +1,186 @@
+{
+  "addcategory": [
+    {
+      "categoryname": "First Rain Fragrance",
+      "addeddate": "2024-04-08",
+      "id": "f5ad"
+    },
+    {
+      "categoryname": "first rain perfumessssssss",
+      "addeddate": "2024-04-25",
+      "id": "e259"
+    },
+    {
+      "categoryname": "jasmine rose-berry attar ",
+      "addeddate": "2024-05-10",
+      "id": "fb50"
+    }
+  ],
+  "addsubcategory": [
+    {
+      "id": "1",
+      "subcategoryname": "above & beyond",
+      "added_date": "05-04-2024"
+    }
+  ],
+  "managecustomer": [
+    {
+      "id": "1",
+      "name": "ishita javiya",
+      "e-mail id": "ishitajaviya2001@gmail.com",
+      "message": "hi i want information regarding perfumes",
+      "adduser": "edit",
+      "deleteuser": "delete"
+    }
+  ],
+  "addproduct": [
+    {
+      "id": "9ec8",
+      "productcategory": "firstrainperfume",
+      "description": "jkjs",
+      "photo": "https://isakfragrances.com/cdn/shop/files/21.png?v=1699860866&width=500",
+      "oldprice": "663",
+      "newprice": "567",
+      "quantity": "40ml",
+      "productname": "sjjjhq"
+    },
+    {
+      "id": "f31e",
+      "productcategory": "firstrainperfume",
+      "description": "this is new leavender rain perfume",
+      "photo": "https://isakfragrances.com/cdn/shop/files/pebblely_7.jpg?v=1696426060&width=1000",
+      "oldprice": "890",
+      "newprice": "789",
+      "quantity": "30ml",
+      "productname": "leavender rain perfume"
+    },
+    {
+      "id": "4490",
+      "productcategory": "firstrainperfume",
+      "description": "this is newly launched",
+      "photo": "https://isakfragrances.com/cdn/shop/products/WISH4101_bead1ebc-c15a-4f88-bf8c-01961a170a4f.jpg?v=1697282911&width=1000",
+      "oldprice": "3045",
+      "newprice": "2000",
+      "quantity": "100ml",
+      "productname": "into the woods (eadu perfume)"
+    },
+    {
+      "id": "b9ae",
+      "productcategory": "firstrainperfume",
+      "description": "this isknkfv",
+      "photo": "https://isakfragrances.com/cdn/shop/files/pebblely_1.jpg?v=1696489323&width=1000",
+      "oldprice": "4334",
+      "newprice": "4000",
+      "quantity": "30ml",
+      "productname": "crimson ough attar"
+    },
+    {
+      "id": "4434",
+      "productcategory": "firstrainperfume",
+      "description": "kdcnjckmkdcn",
+      "photo": "https://isakfragrances.com/cdn/shop/files/pebblely_2_00406ae0-724d-415d-bf0b-cfc1312690e8.jpg?v=1696489876&width=1000",
+      "oldprice": "789",
+      "newprice": "677",
+      "quantity": "40ml",
+      "productname": "sunshine me & Attar"
+    }
+  ],
+  "login": [
+    {
+      "id": "a96c",
+      "email": "ishitaspatel2802@gmail.com",
+      "password": "2323213",
+      "address": "Akashar Parisar",
+      "city": "vadodra",
+      "pincode": "3100005"
+    },
+    {
+      "id": "8ca0",
+      "email": "ishitajaviya2001@gmail.com",
+      "password": "23433342",
+      "address": "prahlad nagar",
+      "city": "ahmedabad",
+      "pincode": "300006"
+    },
+    {
+      "id": "9c49",
+      "email": "ishitajaviya2001@gmail.com",
+      "password": "",
+      "address": "isckon temple",
+      "city": "vadodra",
+      "pincode": "310006"
+    },
+    {
+      "id": "0d81",
+      "email": "ishitaspatel2802@gmail.com",
+      "password": "21314324",
+      "address": "150 ring road hi",
+      "city": "rajkot",
+      "pincode": "360005"
+    },
+    {
+      "id": "34a0",
+      "email": "ishitajaviya2001@gmail.com",
+      "password": "5454216",
+      "address": "ambika ",
+      "city": "ahmedabad",
+      "pincode": "300006"
+    },
+    {
+      "id": "6f09",
+      "email": "ishitajaviya2001@gmail.com",
+      "password": "6723672387",
+      "address": "ambika ",
+      "city": "ahmedabad",
+      "pincode": "300006"
+    },
+    {
+      "id": "8e40",
+      "email": "ishitajaviya2001@gmail.com",
+      "password": "dxc",
+      "address": "mxm",
+      "city": "89999",
+      "pincode": "888099"
+    },
+    {
+      "id": "06be",
+      "email": "ishitajaviya2001@gmail.com",
+      "password": "bgyf",
+      "address": "ambika ",
+      "city": "ahmedabad",
+      "pincode": "300006"
+    }
+  ],
+  "contactus": [
+    {
+      "id": "1",
+      "name": "ishita javiya",
+      "email": "ishitaspatel2802@gmail.com",
+      "message": "hi i want information regarding perfumes"
+    },
+    {
+      "id": "8ec4",
+      "name": "maya savseta",
+      "email": "mayasavseta@gmai.com",
+      "message": "hi i want information regarding first rain perfume"
+    },
+    {
+      "id": "7c59",
+      "name": "Ankita Patel",
+      "email": "ankitapatel@gmail.com",
+      "message": "Hi i want Shipping info acrosss india do u shipped or not ??"
+    },
+    {
+      "id": "bc86",
+      "name": "gargee Adroja",
+      "email": "gargeeadroja@gmail.com",
+      "message": "Can I get my order gift wrapped?"
+    },
+    {
+      "id": "9d28",
+      "name": "Diya patel",
+      "email": "diyapatel1234@gmail.com",
+      "message": "jdfhhf"
+    }
+  ]
+}
